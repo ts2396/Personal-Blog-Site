@@ -111,6 +111,7 @@ a:active {
 
 .navTopBar {
     grid-area: nv;
+    background-color: cornflowerblue;
     padding: 5px;
     list-style-type: none;
     font-size: medium;
