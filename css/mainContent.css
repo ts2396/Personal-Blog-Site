@@ -118,7 +118,6 @@ a:active {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     background-color: #fff;
     color: #444;
-
 }
 
 .grid>article {
@@ -128,7 +127,6 @@ a:active {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-
 }
 
 .textGrid {
