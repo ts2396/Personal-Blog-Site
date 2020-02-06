@@ -1,3 +1,8 @@
+@import URL("header.css");
+@import URL("footer.css");
+@import URL("media.css");
+
+
 /* **************** body **************** */
 
 body {
@@ -89,22 +94,6 @@ a:active {
     color: blue;
 }
 
-/* **************** HEADER **************** */
-
-.header {
-    height: auto;
-    grid-area: hd;
-    text-align: center;
-    color: blue;
-    margin: 5px;
-    width: auto;
-}
-
-.titleHeader {
-    font-size: 40px;
-    padding: 5px;
-}
-
 
 /* **************** NAV **************** */
 
@@ -194,82 +183,4 @@ a:active {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-
-
-/* **************** FOOTER **************** */
-
-
-.footer {
-    grid-area: ft;
-}
-
-.footerBox {
-    width: auto;
-    text-align: center;
-    width: auto;
-    height: auto;
-}
-
-
-/* **************** @MEDIA SCREEN **************** */
-
-
-/* Mobile I */
-@media (min-width: 320px) {
-    .container {
-        display: grid;
-        height: auto;
-        grid-template-columns: 310px;
-        grid-template-rows: auto auto 1fr;
-        grid-template-areas:
-            "hd"
-            "nv"
-            "main"
-            "ft";
-    }
-}
-
-/* Mobile II */
-@media (min-width: 480px) {
-    .container {
-        display: grid;
-        height: auto;
-        grid-template-columns: 450px;
-        grid-template-rows: auto auto 1fr;
-        grid-template-areas:
-            "hd"
-            "nv"
-            "main"
-            "ft";
-    }
-}
-
-@media (min-width: 600px) {
-    .container {
-        display: grid;
-        height: auto;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas:
-            "hd hd hd hd hd hd hd hd"
-            "nv nv nv nv nv nv nv nv"
-            "main main main main main main main main"
-            "ft ft ft ft ft ft ft ft";
-    }
-}
-
-/* Large Screens */
-@media (min-width: 1101px) {
-    .container {
-        width: 100%;
-        height: auto;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas:
-            "hd hd hd hd hd hd hd hd"
-            "nv nv nv nv nv nv nv nv"
-            "main main main main main main main main"
-            "ft ft ft ft ft ft ft ft";
-    }
 }

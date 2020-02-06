@@ -1,5 +1,9 @@
-/* **************** body **************** */
+@import URL("header.css");
+@import URL("footer.css");
+@import URL("media.css");
 
+
+/* **************** body **************** */
 
 body {
     background: rgb(255, 255, 255);
@@ -91,24 +95,6 @@ a:active {
 }
 
 
-/* **************** HEADER **************** */
-
-
-.header {
-    height: auto;
-    grid-area: hd;
-    text-align: center;
-    color: blue;
-    margin: 5px;
-    width: auto;
-}
-
-.titleHeader {
-    font-size: 40px;
-    padding: 5px;
-}
-
-
 /* **************** NAV **************** */
 
 
@@ -147,36 +133,27 @@ a:active {
 }
 
 .grid {
+    padding: 10px;
     display: grid;
-    width: 320;
-    margin: 10px;
+    width: auto;
     grid-gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: auto;
     background-color: #fff;
     color: #444;
-
 }
 
 .grid>article {
     border-radius: 10px;
+    border: 1px solid gainsboro;
     background-color: white;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-
 }
 
 .textGrid {
-    padding: 0 10px 0;
-    border: 2px solid rgb(45, 189, 9);
-    border-radius: 10px;
-    border: 1px solid gold;
-    background-color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    padding: 0 20px 20px;
 }
 
 .text>button {
@@ -206,78 +183,4 @@ a:active {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-
-
-/* **************** FOOTER **************** */
-
-
-.footer {
-    grid-area: ft;
-}
-
-.footerBox {
-    width: auto;
-    text-align: center;
-    width: auto;
-    height: auto;
-}
-
-
-/* **************** @MEDIA SCREEN **************** */
-
-
-/* Mobile I */
-@media (min-width: 320px) {
-    .container {
-        display: grid;
-        height: auto;
-        grid-template-columns: 310;
-        grid-template-areas:
-            "hd"
-            "nv"
-            "main"
-            "ft";
-    }
-}
-
-/* Mobile II */
-@media (min-width: 480px) {
-    .container {
-        display: grid;
-        height: auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto 1fr;
-        grid-template-areas:
-            "hd"
-            "nv"
-            "main"
-            "ft";
-    }
-}
-
-@media (min-width: 600px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
-        grid-template-areas:
-            "hd hd hd hd hd hd hd hd"
-            "nv nv nv nv nv nv nv nv"
-            "main main main main main main main main"
-            "ft ft ft ft ft ft ft ft";
-    }
-}
-
-/* Large Screens */
-@media (min-width: 1101px) {
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 200px auto auto;
-        grid-template-areas:
-            "hd hd hd hd hd hd hd hd"
-            "nv nv nv nv nv nv nv nv"
-            "main main main main main main main main"
-            "ft ft ft ft ft ft ft ft";
-    }
 }
