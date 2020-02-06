@@ -74,26 +74,21 @@ p {
     font-size: 14px;
 }
 
-/* unvisited link */
 a:link {
     color: black;
 }
 
-/* visited link */
 a:visited {
-    color: violet;
-}
-
-/* mouse over link */
-a:hover {
-    color: orangered;
-}
-
-/* selected link */
-a:active {
     color: blue;
 }
 
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
 
 /* **************** NAV **************** */
 
