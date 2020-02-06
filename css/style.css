@@ -114,6 +114,7 @@ a:active {
 
 .navTopBar {
     grid-area: nv;
+    background-color: cornflowerblue;
     padding: 5px;
     list-style-type: none;
     font-size: medium;
@@ -137,7 +138,6 @@ a:active {
 .mainContentIntro {
     padding: 5px;
     text-align: center;
-    background-color: rgb(110, 208, 253);
     color: darkslategrey;
     border-radius: 10px;
     -webkit-border-radius: 10px;
