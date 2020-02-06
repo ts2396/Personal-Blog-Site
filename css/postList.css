@@ -239,30 +239,30 @@ a:active {
             "main"
             "ft";
     }
+}
 
-    @media (min-width: 600px) {
-        .container {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: auto 1fr;
-            grid-template-areas:
-                "hd hd hd hd hd hd hd hd"
-                "nv nv nv nv nv nv nv nv"
-                "main main main main main main main main"
-                "ft ft ft ft ft ft ft ft";
-        }
+@media (min-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "nv nv nv nv nv nv nv nv"
+            "main main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
     }
+}
 
-    /* Large Screens */
-    @media (min-width: 1101px) {
-        .container {
-            grid-template-columns: 1fr;
-            grid-template-rows: 100px auto auto;
-            grid-template-areas:
-                "hd hd hd hd hd hd hd hd"
-                "nv nv nv nv nv nv nv nv"
-                "main main main main main main main main"
-                "ft ft ft ft ft ft ft ft";
-
-        }
+/* Large Screens */
+@media (min-width: 1101px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto auto;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "nv nv nv nv nv nv nv nv"
+            "main main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
     }
+}
