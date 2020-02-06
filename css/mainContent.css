@@ -70,22 +70,22 @@ p {
     font-size: 14px;
 }
 
-/*
+
 a:link {
     color: black;
 }
 
 a:visited {
-    color: violet;
+    color: blue;
+}
 
-    a:hover {
-    color: orangered;
+a:hover {
+    color: green;
 }
 
 a:active {
-    color: blue;
+    color: red;
 }
-*/
 
 
 /* **************** MAIN - CONTENT - GRID **************** */
