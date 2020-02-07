@@ -158,8 +158,8 @@ a:active {
 
 .grid>article {
     border-radius: 10px;
-    border: 1px solid gainsboro;
-    background-color: white;
+    border: 1px solid gold;
+    background-color: gray;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;

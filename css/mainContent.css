@@ -116,7 +116,7 @@ a:active {
     margin: 10px;
     grid-gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    background-color: #fff;
+
     color: #444;
 }
 
