@@ -75,15 +75,15 @@ p {
 }
 
 a:link {
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: blue;
+    color: gold;
 }
 
 a:hover {
-    color: green;
+    color: orange;
 }
 
 a:active {
@@ -91,17 +91,35 @@ a:active {
 }
 
 
+
 /* **************** NAV **************** */
 
 
 .navTopBar {
     grid-area: nv;
-    background-color: cornflowerblue;
-    padding: 5px;
-    list-style-type: none;
-    font-size: medium;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 12px;
+    font-size: 1rem;
     text-align: center;
-    padding: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    color: white;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .0), rgba(0, 0, 0, .2) 30%, blue);
+}
+
+.button:hover {
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 

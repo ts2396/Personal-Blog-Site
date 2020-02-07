@@ -72,15 +72,15 @@ p {
 
 
 a:link {
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: blue;
+    color: gold;
 }
 
 a:hover {
-    color: green;
+    color: orange;
 }
 
 a:active {
@@ -171,29 +171,30 @@ a:active {
 }
 
 .buttonContent {
-    background-color: gainsboro;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.428571429;
+    border: 0;
+    line-height: 2.5;
+    padding: 5px;
+    font-size: 1rem;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: ;
+    background-color: dodgerblue;
+    color: white;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
 }
 
 .buttonContent:hover {
-    background-color: whitesmoke;
-    border: 1px solid blue;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+}
+
+.buttonContent:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
 }

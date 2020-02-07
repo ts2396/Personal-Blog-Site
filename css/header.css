@@ -2,11 +2,9 @@
 
 
 .header {
-    height: auto;
     grid-area: hd;
     text-align: center;
     color: blue;
-    margin: 5px;
     width: auto;
 }
 
@@ -20,39 +18,27 @@
 
 .navTopBar {
     grid-area: nv;
-    background-color: cornflowerblue;
-    padding: 5px;
-    list-style-type: none;
-    font-size: medium;
-    text-align: center;
-    padding: 10px;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
 }
 
 .button {
-
-    background-color: white;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.428571429;
+    border: 0;
+    line-height: 2.5;
+    padding: 12px;
+    font-size: 1rem;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    color: white;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .0), rgba(0, 0, 0, .2) 30%, blue);
 
-.button:hover {
-    background-color: whitesmoke;
-    border: 1px solid blue;
-}
+
+    .button:hover {
+        background-color: rgba(255, 0, 0, 1);
+        color: white;
+    }
+
+    .button:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+            inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
