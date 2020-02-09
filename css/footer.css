@@ -3,6 +3,7 @@
 
 .footer {
     grid-area: ft;
+    text-decoration: none;
 }
 
 .footerBox {
